@@ -1,0 +1,66 @@
+civic_amakura_part02 = {
+	icon = gfx/interface/icons/governments/civics/civic_amakura_part02.dds
+	possible = { }
+	potential = { colony = { is_ai = no } }
+	random_weight = { base = 0 }
+	modifier = {
+		#Country
+		country_base_influence_produces_add = 50000  #每月影响力
+		COUNTRY_LEADER_POOL_SIZE = 10 #领袖储备规模
+		COUNTRY_SECTOR_CAP_ADD = 20 #星域上限
+		num_tech_alternatives_add = 20  #备选科技
+		COUNTRY_INSULT_EFFICIENCY = 50  #外交羞辱效率
+		COUNTRY_MAX_EMBASSIES = 20  #大使馆上限
+		COUNTRY_TRADE_ATTRACTIVENESS = 20  #贸易吸引力
+		COLONY_START_NUM_POPS_ADD = 10  #建立殖民地的额外人口
+		COUNTRY_TERRAFORM_SPEED_MULT = 50  #环境改造速度
+		MEGASTRUCTURE_BUILD_SPEED_MULT = 50  #巨构建筑建造速度
+		MEGASTRUCTURE_PRODUCTION_MULT = 50  #巨构建筑资源产出
+		DIPLO_WEIGHT_MULT = 50 #外交权重
+		ADD_BASE_COUNTRY_INTEL = 130  #基础情报等级
+
+		#Planet
+		PLANET_HOUSING_ADD = 80  #住房
+		PLANET_CRIME_ADD = -80  #犯罪度
+		PLANET_STABILITY_ADD = 80  #稳定度
+		PLANET_CLEAR_BLOCKER_TIME_MULT = -50  #清理障碍时间
+		COUNTRY_BORDER_FRICTION_MULT = -50  #边境摩擦
+		PLANET_BUILDING_BUILD_SPEED_MULT = 50  #行星建造速度
+
+		planet_district_industrial_build_speed_mult = 50  #工业区建造速度
+		planet_district_mining_build_speed_mult = 50  #采矿区划建造速度
+		planet_district_farming_build_speed_mult = 50  #农业区划建造速度
+		planet_district_generator_build_speed_mult = 50  #发电区划建造速度
+		planet_district_city_build_speed_mult = 50  #城市区划建造速度
+
+		#Fleet
+		COUNTRY_NAVAL_CAP_MULT = 50  #舰队规模
+		COUNTRY_COMMAND_LIMIT_ADD = 10  #舰队指挥上限
+
+		#Leader
+		LEADER_RULER_SKILL_LEVELS = 50  #统治者等级上限
+		LEADER_SKILL_LEVELS = 50  #领袖等级上限
+		LEADER_AGE = 120  #领袖预期寿命
+
+		#Spaceport
+ 		STARBASE_SHIP_BUILD_SPEED_MULT = 500  #舰船建造速度
+		STARBASE_SHIPYARD_BUILD_SPEED_MULT = 500  #舰船建造速度
+		STARBASE_UPGRADE_SPEED_MULT = 500  #恒星基地升级速度
+		STARBASE_BUILDING_BUILD_TIME_MULT = -500  #恒星基地建筑建造耗时
+		STARBASE_MODULE_BUILD_SPEED_MULT = 500  #恒星基地模块建造速度
+		STARBASE_BUILDING_CAPACITY_ADD = 3  #恒星基地建筑
+		STARBASE_MODULE_CAPACITY_ADD = 2  #恒星基地模块
+
+		#Resource Modifiers
+		planet_jobs_produces_mult = 5000  #岗位生产的资源
+
+		planet_max_buildings_add = 5 #建筑槽位
+		envoys_add = 10 #可派遣的特使
+		intel_decryption_add = 5 #破译
+		intel_encryption_add = 5 #加密
+		country_edict_cap_add = 5 #法令上限
+		pop_factions_produces_mult = 50 #派系影响力收益
+		country_war_exhaustion_mult = -50 #厌战度获得
+		country_claim_influence_cost_mult = -50 #宣称影响力花费
+	}
+}

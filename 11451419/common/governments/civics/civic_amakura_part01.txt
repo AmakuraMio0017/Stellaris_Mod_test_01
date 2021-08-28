@@ -1,0 +1,60 @@
+civic_amakura_part01 = {
+	icon = gfx/interface/icons/governments/civics/civic_amakura_part01.dds
+	possible = { }
+	potential = { colony = { is_ai = no } }
+	random_weight = { base = 0 }
+	modifier = {
+		#Pop
+		POP_HAPPINESS = 50  #幸福度
+		FACTION_APPROVAL = 50  #派系赞同度
+		POP_ENVIRONMENT_TOLERANCE = 50  #宜居性
+		POP_GROWTH_SPEED = 3  #人口增长速度
+
+		#Ship
+		SHIP_ARMOR_MULT = 50  #装甲值
+		SHIP_SHIELD_DAMAGE_MULT = 5  #护盾伤害
+		SHIP_SHIELD_PENETRATION_MULT = 5  #护盾穿透
+		SHIP_ARMOR_DAMAGE_MULT = 5  #装甲伤害
+		SHIP_ARMOR_PENETRATION_MULT = 5  #装甲穿透
+		SHIP_BASE_SPEED_MULT = 50  #基础舰船速度
+		SHIP_SPEED_MULT = 50  #亚光速航速
+		SHIP_LANDING_TIME_MULT = -50  #登陆时间
+		SHIP_ORBIT_UPKEEP_MULT = -50  #驻港舰船维护费
+		SHIP_FTL_JUMPDRIVE_RANGE_MULT = 50  #跃迁引擎范围
+		
+		SHIP_HULL_DAMAGE_MULT = 5  #船体伤害
+		SHIP_HULL_REGEN_ADD_PERC = 50  #每日船体再生
+		SHIP_ARMOR_REGEN_ADD_PERC = 50  #每日装甲再生
+		SHIP_SHIELD_REGEN_ADD_PERC = 50  #每日护盾再生
+
+		SHIP_WEAPON_DAMAGE = 5  #舰船武器伤害
+		SHIP_WEAPON_RANGE_MULT = 2  #舰船武器射程
+		SHIP_ENGAGEMENT_RANGE_MULT = 2  #舰船交战范围
+		SHIP_FIRE_RATE_MULT = 2  #舰船武器射速
+		FORCE_DISPARITY_FIRE_RATE_MULT = 2  #战力差距加成
+		SHIP_HOME_TERRITORY_FIRE_RATE_MULT = 5  #本土作战射速
+
+		SHIP_EVASION_MULT = 5  #闪避
+		SHIP_ACCURACY_MULT = 5  #命中
+		SHIP_TRACKING_MULT = 50  #追踪
+		science_ship_survey_speed = 50  #调查速度
+		SHIP_INTERSTELLAR_SPEED_MULT = 50  #超光速速度
+		SHIP_EXPERIENCE_GAIN_MULT = 50  #舰船经验获得
+		SHIP_JUMPDRIVE_COOLDOWN_MULT = -50  #跃迁引擎冷却
+		SHIP_ANOMALY_FAIL_RISK = -10  #异常现象失败风险
+		SHIP_WINDUP_MULT = -50  #超空间跳跃充能时间
+
+		#Army
+		ARMY_HEALTH = 50  #陆军生命值
+		ARMY_DAMAGE_MULT = 50  #陆军伤害
+		ARMY_ATTACK_HEALTH_MULT = 50  #进攻部队生命值
+		ARMY_DEFENSE_HEALTH_MULT = 50  #防御部队生命值
+		ARMY_BUILD_SPEED_MULT = 50  #陆军建造速度
+		ARMY_MORALE = 50  #陆军士气
+		ARMY_DEFENSE_MORALE_MULT = 50  #防御部队士气
+		ARMY_DEFENSE_DAMAGE_MULT = 50  #防御部队伤害
+		ARMY_ATTACK_MORALE_MULT = 50  #进攻部队士气
+		ARMY_ATTACK_DAMAGE_MULT = 50  #进攻部队伤害
+		ARMY_EXPERIENCE_GAIN_MULT = 50  #陆军经验获得
+	}
+}
